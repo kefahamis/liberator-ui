@@ -43,6 +43,7 @@ Route::group(['namespace' => 'staff', 'prefix' => 'staff','middleware' => 'staff
 Route::group(['namespace' => 'hr', 'prefix' => 'hr','middleware' => 'hr'], function () {
     Route::get('/training-programs', [HumanResourceController::class, 'index']);
     Route::get('/enroll', [HumanResourceController::class, 'enroll']);
+    Route::get('/enrolment-options', [HumanResourceController::class, 'enrolment_option']);
     Route::get('/download', [HumanResourceController::class, 'download']);
     Route::get('/profile', [HumanResourceController::class, 'profile']);
     Route::get('/onboard', [HumanResourceController::class, 'team']);
@@ -55,6 +56,9 @@ Route::group(['namespace' => 'hr', 'prefix' => 'hr','middleware' => 'hr'], funct
     Route::get('/payment', [HumanResourceController::class, 'payment']);
     Route::get('/license', [HumanResourceController::class, 'license']);
     Route::get('/license-details', [HumanResourceController::class, 'license_details']);
+    Route::get('/notifications', [HumanResourceController::class, 'reminders']);
+    Route::get('/instructors-catalog', [HumanResourceController::class, 'catalog']);
+    Route::get('/instructor', [HumanResourceController::class, 'instructor']);
 });
 Route::get('admin', function () {
     return view('admin');

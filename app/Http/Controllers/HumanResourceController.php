@@ -69,6 +69,9 @@ class HumanResourceController extends Controller
     public function enroll(){
         return view('backend.hr.enroll');
     }
+    public function enrolment_option(){
+        return view('backend.hr.enrollment-options');
+    }
     public function download(){
         return view('backend.hr.download');
     }
@@ -98,5 +101,14 @@ class HumanResourceController extends Controller
     }
     public function license_details(){
         return view('backend.hr.single-license');
+    }
+    public function reminders(){
+        return view('backend.hr.notification');
+    }
+    public function catalog(){
+        return view('backend.hr.instructor-catalog');
+    }
+    public function instructor(){
+        return view('backend.hr.single-instructor');
     }
 }

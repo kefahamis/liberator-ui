@@ -496,79 +496,148 @@ ul {
     color: #fff !important;
     width: 100%;
 }
-.content-wrapper .bg-info{
+
+.content-wrapper .bg-info {
     background: #0A7FF226 !important;
-  color: #000 !important;
+    color: #000 !important;
 }
-.single-program{
+
+.single-program {
     background-color: #0A7FF2;
     padding: 30px;
 }
-.content-section{
+
+.content-section {
     padding: 30px;
 }
-.single-program h5{
-  font-weight: 400;
+
+.single-program h5 {
+    font-weight: 400;
 }
-.single-program ul li span{
+
+.single-program ul li span {
     padding-left: 20px;
     color: #fff;
 }
-.single-program ul,.bg ul{
+
+.single-program ul,
+.bg ul {
     padding-left: 0;
 }
-.single-program h2,.single-program h4,.single-program h5,.single-program p{
+
+.single-program h2,
+.single-program h4,
+.single-program h5,
+.single-program p {
     color: #fff;
 }
-.single-program h2{
-    margin-bottom:20px;
+
+.single-program h2 {
+    margin-bottom: 20px;
 }
-.rating,.single-cta{
-    background-color:rgb(10 127 242 / 25%);
+
+.rating,
+.single-cta {
+    background-color: rgb(10 127 242 / 25%);
     padding: 20px;
 }
-.single-cta .first{
+
+.single-cta .first {
     color: #2699FB;
     list-style: disc;
 }
-.cert-image{
+
+.cert-image {
     background-color: #D9D9D9;
     height: 146px;
-    width:237px;
-}
-.carousel-control-prev-icon::before,.carousel-control-next-icon::before {
-    content:'';
-}
-.employee-search input{
-    width:1024px;
+    width: 237px;
 }
 
-.employee-list ul{
+.carousel-control-prev-icon::before,
+.carousel-control-next-icon::before {
+    content: '';
+}
+
+.employee-search input {
+    width: 1024px;
+}
+
+.employee-list ul {
     background-color: #d9d9d9;
 }
-.action-btn-wrap button{
+
+.action-btn-wrap button {
     font-weight: 800;
 }
-.bg-dashed{
+
+.bg-dashed {
     border: 2px dashed #000;
 }
-.bg-dashed .label-success,.bg-dashed .label-danger{
+
+.bg-dashed .label-success,
+.bg-dashed .label-danger {
     font-size: 16px;
 }
-.bg-dashed .label-success{
+
+.bg-dashed .label-success {
     color: #0086F8;
 }
-.bg-dashed .label-danger{
+
+.bg-dashed .label-danger {
     color: #FFC107;
 
 }
-.bg-dashed ul{
-    padding-left:0;
+
+.bg-dashed ul {
+    padding-left: 0;
 }
-.confirm-wrap,.analytics-wrap{
+
+.confirm-wrap,
+.analytics-wrap {
     border: 1px dashed #000;
 }
-.card-num{
+
+.card-num {
     background: #E2FFFD;
 
+}
+
+.enroll-card {
+    background-color: #0A7FF23D;
+    padding: 20px;
+}
+
+.enroll-card li {
+    list-style: disc;
+}
+
+.foot-note {
+    background: #BFFF07;
+    padding: 20px;
+
+}
+
+.top-bg {
+    background-color: #0A7FF23D;
+
+}
+
+.hr-badge {
+    background-color: #0A7FF2;
+    padding: 15px;
+    color: #fff;
+    margin: 10px auto;
+}
+
+.instructors-list {
+    padding-left: 0;
+}
+
+.instructors-list li {
+    background: #0A7FF226;
+    padding: 10px;
+}
+.instructors-list li a{
+    text-decoration: none;
+    color: #000;
 }
